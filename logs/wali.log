@@ -1,0 +1,187 @@
+[2020-08-19T00:24:04,909][INFO ][o.e.e.NodeEnvironment    ] [master] using [1] data paths, mounts [[Data (D:)]], net usable_space [175.8gb], net total_space [931.4gb], types [NTFS]
+[2020-08-19T00:24:04,912][INFO ][o.e.e.NodeEnvironment    ] [master] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-08-19T00:24:04,917][INFO ][o.e.n.Node               ] [master] node name [master], node ID [9Ogvf03kTruhPhZtHlEgqA], cluster name [wali]
+[2020-08-19T00:24:04,919][INFO ][o.e.n.Node               ] [master] version[7.4.0], pid[23260], build[default/zip/22e1767283e61a198cb4db791ea66e3f11ab9910/2019-09-27T08:36:48.569419Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.6/11.0.6+8-LTS]
+[2020-08-19T00:24:04,920][INFO ][o.e.n.Node               ] [master] JVM home [C:\Program Files\Java\jdk-11.0.6]
+[2020-08-19T00:24:04,921][INFO ][o.e.n.Node               ] [master] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\20838\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -Dio.netty.allocator.type=unpooled, -XX:MaxDirectMemorySize=536870912, -Delasticsearch, -Des.path.home=D:\Docker\es, -Des.path.conf=D:\Docker\es\config, -Des.distribution.flavor=default, -Des.distribution.type=zip, -Des.bundled_jdk=true]
+[2020-08-19T00:24:06,590][INFO ][o.e.p.PluginsService     ] [master] loaded module [aggs-matrix-stats]
+[2020-08-19T00:24:06,590][INFO ][o.e.p.PluginsService     ] [master] loaded module [analysis-common]
+[2020-08-19T00:24:06,590][INFO ][o.e.p.PluginsService     ] [master] loaded module [data-frame]
+[2020-08-19T00:24:06,590][INFO ][o.e.p.PluginsService     ] [master] loaded module [flattened]
+[2020-08-19T00:24:06,590][INFO ][o.e.p.PluginsService     ] [master] loaded module [frozen-indices]
+[2020-08-19T00:24:06,591][INFO ][o.e.p.PluginsService     ] [master] loaded module [ingest-common]
+[2020-08-19T00:24:06,592][INFO ][o.e.p.PluginsService     ] [master] loaded module [ingest-geoip]
+[2020-08-19T00:24:06,592][INFO ][o.e.p.PluginsService     ] [master] loaded module [ingest-user-agent]
+[2020-08-19T00:24:06,592][INFO ][o.e.p.PluginsService     ] [master] loaded module [lang-expression]
+[2020-08-19T00:24:06,593][INFO ][o.e.p.PluginsService     ] [master] loaded module [lang-mustache]
+[2020-08-19T00:24:06,593][INFO ][o.e.p.PluginsService     ] [master] loaded module [lang-painless]
+[2020-08-19T00:24:06,594][INFO ][o.e.p.PluginsService     ] [master] loaded module [mapper-extras]
+[2020-08-19T00:24:06,594][INFO ][o.e.p.PluginsService     ] [master] loaded module [parent-join]
+[2020-08-19T00:24:06,595][INFO ][o.e.p.PluginsService     ] [master] loaded module [percolator]
+[2020-08-19T00:24:06,595][INFO ][o.e.p.PluginsService     ] [master] loaded module [rank-eval]
+[2020-08-19T00:24:06,595][INFO ][o.e.p.PluginsService     ] [master] loaded module [reindex]
+[2020-08-19T00:24:06,596][INFO ][o.e.p.PluginsService     ] [master] loaded module [repository-url]
+[2020-08-19T00:24:06,597][INFO ][o.e.p.PluginsService     ] [master] loaded module [search-business-rules]
+[2020-08-19T00:24:06,600][INFO ][o.e.p.PluginsService     ] [master] loaded module [spatial]
+[2020-08-19T00:24:06,601][INFO ][o.e.p.PluginsService     ] [master] loaded module [transport-netty4]
+[2020-08-19T00:24:06,601][INFO ][o.e.p.PluginsService     ] [master] loaded module [vectors]
+[2020-08-19T00:24:06,601][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-analytics]
+[2020-08-19T00:24:06,603][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-ccr]
+[2020-08-19T00:24:06,603][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-core]
+[2020-08-19T00:24:06,604][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-deprecation]
+[2020-08-19T00:24:06,604][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-graph]
+[2020-08-19T00:24:06,605][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-ilm]
+[2020-08-19T00:24:06,606][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-logstash]
+[2020-08-19T00:24:06,607][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-ml]
+[2020-08-19T00:24:06,607][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-monitoring]
+[2020-08-19T00:24:06,607][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-rollup]
+[2020-08-19T00:24:06,608][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-security]
+[2020-08-19T00:24:06,608][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-sql]
+[2020-08-19T00:24:06,609][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-voting-only-node]
+[2020-08-19T00:24:06,609][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-watcher]
+[2020-08-19T00:24:06,610][INFO ][o.e.p.PluginsService     ] [master] no plugins loaded
+[2020-08-19T00:24:10,231][INFO ][o.e.x.s.a.s.FileRolesStore] [master] parsed [0] roles from file [D:\Docker\es\config\roles.yml]
+[2020-08-19T00:24:10,719][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [master] [controller/25316] [Main.cc@110] controller (64 bit): Version 7.4.0 (Build 11d694e7bae395) Copyright (c) 2019 Elasticsearch BV
+[2020-08-19T00:24:11,116][DEBUG][o.e.a.ActionModule       ] [master] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2020-08-19T00:24:11,545][INFO ][o.e.d.DiscoveryModule    ] [master] using discovery type [zen] and seed hosts providers [settings]
+[2020-08-19T00:24:12,232][INFO ][o.e.n.Node               ] [master] initialized
+[2020-08-19T00:24:12,233][INFO ][o.e.n.Node               ] [master] starting ...
+[2020-08-19T00:24:13,281][INFO ][o.e.t.TransportService   ] [master] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2020-08-19T00:24:13,287][WARN ][o.e.b.BootstrapChecks    ] [master] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-08-19T00:24:13,306][INFO ][o.e.c.c.ClusterBootstrapService] [master] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-08-19T00:24:16,314][INFO ][o.e.c.c.Coordinator      ] [master] setting initial configuration to VotingConfiguration{9Ogvf03kTruhPhZtHlEgqA}
+[2020-08-19T00:24:16,522][INFO ][o.e.c.s.MasterService    ] [master] elected-as-master ([1] nodes joined)[{master}{9Ogvf03kTruhPhZtHlEgqA}{iItUzYEiSFay125vECD_sQ}{127.0.0.1}{127.0.0.1:9300}{dilm}{ml.machine_memory=17046917120, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, reason: master node changed {previous [], current [{master}{9Ogvf03kTruhPhZtHlEgqA}{iItUzYEiSFay125vECD_sQ}{127.0.0.1}{127.0.0.1:9300}{dilm}{ml.machine_memory=17046917120, xpack.installed=true, ml.max_open_jobs=20}]}
+[2020-08-19T00:24:16,601][INFO ][o.e.c.c.CoordinationState] [master] cluster UUID set to [jhH8RAmNTMi1c3gXFUYR1g]
+[2020-08-19T00:24:16,696][INFO ][o.e.c.s.ClusterApplierService] [master] master node changed {previous [], current [{master}{9Ogvf03kTruhPhZtHlEgqA}{iItUzYEiSFay125vECD_sQ}{127.0.0.1}{127.0.0.1:9300}{dilm}{ml.machine_memory=17046917120, xpack.installed=true, ml.max_open_jobs=20}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-08-19T00:24:16,768][INFO ][o.e.h.AbstractHttpServerTransport] [master] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2020-08-19T00:24:16,769][INFO ][o.e.n.Node               ] [master] started
+[2020-08-19T00:24:16,858][INFO ][o.e.g.GatewayService     ] [master] recovered [0] indices into cluster_state
+[2020-08-19T00:24:17,022][INFO ][o.e.c.m.MetaDataIndexTemplateService] [master] adding template [.watches] for index patterns [.watches*]
+[2020-08-19T00:24:17,148][INFO ][o.e.c.m.MetaDataIndexTemplateService] [master] adding template [.slm-history] for index patterns [.slm-history-1*]
+[2020-08-19T00:24:17,232][INFO ][o.e.c.m.MetaDataIndexTemplateService] [master] adding template [.watch-history-10] for index patterns [.watcher-history-10*]
+[2020-08-19T00:24:17,332][INFO ][o.e.c.m.MetaDataIndexTemplateService] [master] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2020-08-19T00:24:17,428][INFO ][o.e.c.m.MetaDataIndexTemplateService] [master] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-7-*]
+[2020-08-19T00:24:17,536][INFO ][o.e.c.m.MetaDataIndexTemplateService] [master] adding template [.monitoring-es] for index patterns [.monitoring-es-7-*]
+[2020-08-19T00:24:17,637][INFO ][o.e.c.m.MetaDataIndexTemplateService] [master] adding template [.monitoring-beats] for index patterns [.monitoring-beats-7-*]
+[2020-08-19T00:24:17,743][INFO ][o.e.c.m.MetaDataIndexTemplateService] [master] adding template [.monitoring-alerts-7] for index patterns [.monitoring-alerts-7]
+[2020-08-19T00:24:17,867][INFO ][o.e.c.m.MetaDataIndexTemplateService] [master] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-7-*]
+[2020-08-19T00:24:18,117][INFO ][o.e.l.LicenseService     ] [master] license [a38b5979-aee2-471b-aed4-a4a618f52806] mode [basic] - valid
+[2020-08-19T00:24:18,118][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [master] Active license is now [BASIC]; Security is enabled
+[2020-08-19T00:24:18,122][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [master] adding index lifecycle policy [watch-history-ilm-policy]
+[2020-08-19T00:24:18,241][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [master] adding index lifecycle policy [slm-history-ilm-policy]
+[2020-08-19T00:25:52,246][INFO ][o.e.b.Bootstrap          ] [master] running graceful exit on windows
+[2020-08-19T00:25:52,247][INFO ][o.e.n.Node               ] [master] stopping ...
+[2020-08-19T00:25:52,266][INFO ][o.e.x.w.WatcherService   ] [master] stopping watch service, reason [shutdown initiated]
+[2020-08-19T00:25:52,268][INFO ][o.e.x.w.WatcherLifeCycleService] [master] watcher has stopped and shutdown
+[2020-08-19T00:25:52,642][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [master] [controller/25316] [Main.cc@150] Ml controller exiting
+[2020-08-19T00:25:52,643][INFO ][o.e.x.m.p.NativeController] [master] Native controller process has stopped - no new native processes can be started
+[2020-08-19T00:25:52,652][INFO ][o.e.n.Node               ] [master] stopped
+[2020-08-19T00:25:52,653][INFO ][o.e.n.Node               ] [master] closing ...
+[2020-08-19T00:25:52,661][INFO ][o.e.n.Node               ] [master] closed
+[2020-08-19T00:26:23,626][INFO ][o.e.e.NodeEnvironment    ] [master] using [1] data paths, mounts [[Data (D:)]], net usable_space [175.8gb], net total_space [931.4gb], types [NTFS]
+[2020-08-19T00:26:23,629][INFO ][o.e.e.NodeEnvironment    ] [master] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-08-19T00:26:23,633][INFO ][o.e.n.Node               ] [master] node name [master], node ID [9Ogvf03kTruhPhZtHlEgqA], cluster name [wali]
+[2020-08-19T00:26:23,634][INFO ][o.e.n.Node               ] [master] version[7.4.0], pid[15056], build[default/zip/22e1767283e61a198cb4db791ea66e3f11ab9910/2019-09-27T08:36:48.569419Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.6/11.0.6+8-LTS]
+[2020-08-19T00:26:23,634][INFO ][o.e.n.Node               ] [master] JVM home [C:\Program Files\Java\jdk-11.0.6]
+[2020-08-19T00:26:23,634][INFO ][o.e.n.Node               ] [master] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\20838\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -Dio.netty.allocator.type=unpooled, -XX:MaxDirectMemorySize=536870912, -Delasticsearch, -Des.path.home=D:\Docker\es, -Des.path.conf=D:\Docker\es\config, -Des.distribution.flavor=default, -Des.distribution.type=zip, -Des.bundled_jdk=true]
+[2020-08-19T00:26:25,410][INFO ][o.e.p.PluginsService     ] [master] loaded module [aggs-matrix-stats]
+[2020-08-19T00:26:25,410][INFO ][o.e.p.PluginsService     ] [master] loaded module [analysis-common]
+[2020-08-19T00:26:25,410][INFO ][o.e.p.PluginsService     ] [master] loaded module [data-frame]
+[2020-08-19T00:26:25,410][INFO ][o.e.p.PluginsService     ] [master] loaded module [flattened]
+[2020-08-19T00:26:25,411][INFO ][o.e.p.PluginsService     ] [master] loaded module [frozen-indices]
+[2020-08-19T00:26:25,411][INFO ][o.e.p.PluginsService     ] [master] loaded module [ingest-common]
+[2020-08-19T00:26:25,411][INFO ][o.e.p.PluginsService     ] [master] loaded module [ingest-geoip]
+[2020-08-19T00:26:25,411][INFO ][o.e.p.PluginsService     ] [master] loaded module [ingest-user-agent]
+[2020-08-19T00:26:25,411][INFO ][o.e.p.PluginsService     ] [master] loaded module [lang-expression]
+[2020-08-19T00:26:25,411][INFO ][o.e.p.PluginsService     ] [master] loaded module [lang-mustache]
+[2020-08-19T00:26:25,412][INFO ][o.e.p.PluginsService     ] [master] loaded module [lang-painless]
+[2020-08-19T00:26:25,412][INFO ][o.e.p.PluginsService     ] [master] loaded module [mapper-extras]
+[2020-08-19T00:26:25,412][INFO ][o.e.p.PluginsService     ] [master] loaded module [parent-join]
+[2020-08-19T00:26:25,412][INFO ][o.e.p.PluginsService     ] [master] loaded module [percolator]
+[2020-08-19T00:26:25,412][INFO ][o.e.p.PluginsService     ] [master] loaded module [rank-eval]
+[2020-08-19T00:26:25,412][INFO ][o.e.p.PluginsService     ] [master] loaded module [reindex]
+[2020-08-19T00:26:25,412][INFO ][o.e.p.PluginsService     ] [master] loaded module [repository-url]
+[2020-08-19T00:26:25,413][INFO ][o.e.p.PluginsService     ] [master] loaded module [search-business-rules]
+[2020-08-19T00:26:25,413][INFO ][o.e.p.PluginsService     ] [master] loaded module [spatial]
+[2020-08-19T00:26:25,413][INFO ][o.e.p.PluginsService     ] [master] loaded module [transport-netty4]
+[2020-08-19T00:26:25,413][INFO ][o.e.p.PluginsService     ] [master] loaded module [vectors]
+[2020-08-19T00:26:25,413][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-analytics]
+[2020-08-19T00:26:25,413][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-ccr]
+[2020-08-19T00:26:25,414][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-core]
+[2020-08-19T00:26:25,414][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-deprecation]
+[2020-08-19T00:26:25,414][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-graph]
+[2020-08-19T00:26:25,414][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-ilm]
+[2020-08-19T00:26:25,414][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-logstash]
+[2020-08-19T00:26:25,414][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-ml]
+[2020-08-19T00:26:25,415][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-monitoring]
+[2020-08-19T00:26:25,415][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-rollup]
+[2020-08-19T00:26:25,415][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-security]
+[2020-08-19T00:26:25,415][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-sql]
+[2020-08-19T00:26:25,415][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-voting-only-node]
+[2020-08-19T00:26:25,415][INFO ][o.e.p.PluginsService     ] [master] loaded module [x-pack-watcher]
+[2020-08-19T00:26:25,416][INFO ][o.e.p.PluginsService     ] [master] no plugins loaded
+[2020-08-19T00:26:29,733][INFO ][o.e.x.s.a.s.FileRolesStore] [master] parsed [0] roles from file [D:\Docker\es\config\roles.yml]
+[2020-08-19T00:26:30,216][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [master] [controller/26540] [Main.cc@110] controller (64 bit): Version 7.4.0 (Build 11d694e7bae395) Copyright (c) 2019 Elasticsearch BV
+[2020-08-19T00:26:30,559][DEBUG][o.e.a.ActionModule       ] [master] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2020-08-19T00:26:30,916][INFO ][o.e.d.DiscoveryModule    ] [master] using discovery type [zen] and seed hosts providers [settings]
+[2020-08-19T00:26:31,484][INFO ][o.e.n.Node               ] [master] initialized
+[2020-08-19T00:26:31,484][INFO ][o.e.n.Node               ] [master] starting ...
+[2020-08-19T00:26:32,539][INFO ][o.e.t.TransportService   ] [master] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2020-08-19T00:26:32,546][WARN ][o.e.b.BootstrapChecks    ] [master] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-08-19T00:26:32,550][INFO ][o.e.c.c.Coordinator      ] [master] cluster UUID [jhH8RAmNTMi1c3gXFUYR1g]
+[2020-08-19T00:26:32,561][INFO ][o.e.c.c.ClusterBootstrapService] [master] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-08-19T00:26:32,683][INFO ][o.e.c.s.MasterService    ] [master] elected-as-master ([1] nodes joined)[{master}{9Ogvf03kTruhPhZtHlEgqA}{XKTzh8wvTt6zm9F6rthygA}{127.0.0.1}{127.0.0.1:9300}{dilm}{ml.machine_memory=17046917120, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 2, version: 18, reason: master node changed {previous [], current [{master}{9Ogvf03kTruhPhZtHlEgqA}{XKTzh8wvTt6zm9F6rthygA}{127.0.0.1}{127.0.0.1:9300}{dilm}{ml.machine_memory=17046917120, xpack.installed=true, ml.max_open_jobs=20}]}
+[2020-08-19T00:26:32,794][INFO ][o.e.c.s.ClusterApplierService] [master] master node changed {previous [], current [{master}{9Ogvf03kTruhPhZtHlEgqA}{XKTzh8wvTt6zm9F6rthygA}{127.0.0.1}{127.0.0.1:9300}{dilm}{ml.machine_memory=17046917120, xpack.installed=true, ml.max_open_jobs=20}]}, term: 2, version: 18, reason: Publication{term=2, version=18}
+[2020-08-19T00:26:32,855][INFO ][o.e.h.AbstractHttpServerTransport] [master] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2020-08-19T00:26:32,856][INFO ][o.e.n.Node               ] [master] started
+[2020-08-19T00:26:33,002][INFO ][o.e.l.LicenseService     ] [master] license [a38b5979-aee2-471b-aed4-a4a618f52806] mode [basic] - valid
+[2020-08-19T00:26:33,003][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [master] Active license is now [BASIC]; Security is enabled
+[2020-08-19T00:26:33,009][INFO ][o.e.g.GatewayService     ] [master] recovered [0] indices into cluster_state
+[2020-08-19T00:28:11,528][INFO ][o.e.x.s.s.SecurityIndexManager] [master] security index does not exist. Creating [.security-7] with alias [.security]
+[2020-08-19T00:28:11,623][INFO ][o.e.c.m.MetaDataCreateIndexService] [master] [.security-7] creating index, cause [api], templates [], shards [1]/[0], mappings [_doc]
+[2020-08-19T00:28:12,476][INFO ][o.e.c.r.a.AllocationService] [master] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.security-7][0]]]).
+[2020-08-19T00:28:13,798][WARN ][o.e.h.AbstractHttpServerTransport] [master] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:62852}
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:233) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at org.elasticsearch.transport.CopyBytesSocketChannel.readFromSocketChannel(CopyBytesSocketChannel.java:137) ~[transport-netty4-client-7.4.0.jar:7.4.0]
+	at org.elasticsearch.transport.CopyBytesSocketChannel.doReadBytes(CopyBytesSocketChannel.java:122) ~[transport-netty4-client-7.4.0.jar:7.4.0]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:597) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:551) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.38.Final.jar:4.1.38.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2020-08-19T00:57:44,190][WARN ][o.e.h.AbstractHttpServerTransport] [master] caught exception while handling client http traffic, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:63501}
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:233) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at org.elasticsearch.transport.CopyBytesSocketChannel.readFromSocketChannel(CopyBytesSocketChannel.java:137) ~[transport-netty4-client-7.4.0.jar:7.4.0]
+	at org.elasticsearch.transport.CopyBytesSocketChannel.doReadBytes(CopyBytesSocketChannel.java:122) ~[transport-netty4-client-7.4.0.jar:7.4.0]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:597) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:551) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.38.Final.jar:4.1.38.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.38.Final.jar:4.1.38.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2020-08-19T03:36:07,057][INFO ][o.e.b.Bootstrap          ] [master] running graceful exit on windows
+[2020-08-19T03:36:07,061][INFO ][o.e.n.Node               ] [master] stopping ...
+[2020-08-19T03:36:07,142][INFO ][o.e.x.w.WatcherService   ] [master] stopping watch service, reason [shutdown initiated]
+[2020-08-19T03:36:07,164][INFO ][o.e.x.w.WatcherLifeCycleService] [master] watcher has stopped and shutdown
+[2020-08-19T03:36:07,696][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [master] [controller/26540] [Main.cc@150] Ml controller exiting
+[2020-08-19T03:36:07,724][INFO ][o.e.x.m.p.NativeController] [master] Native controller process has stopped - no new native processes can be started
+[2020-08-19T03:36:07,875][INFO ][o.e.n.Node               ] [master] stopped
+[2020-08-19T03:36:07,876][INFO ][o.e.n.Node               ] [master] closing ...
+[2020-08-19T03:36:07,998][INFO ][o.e.n.Node               ] [master] closed
